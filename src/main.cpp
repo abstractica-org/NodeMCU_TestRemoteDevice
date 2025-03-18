@@ -2,8 +2,8 @@
 #include <TestRemoteDevice.h>
 #include <ESP8266WiFi.h>        // Include the Wi-Fi library
 
-const char* ssid     = "TG_HOME";         // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "13650421";     // The password of the Wi-Fi network
+const char* ssid     = "";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "";     // The password of the Wi-Fi network
 
 //The client will begin by sending a broadcast packet to find the server.
 const uint16_t local_port = 2323; //the local port on the NodeMCU
